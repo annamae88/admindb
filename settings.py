@@ -79,11 +79,11 @@ WSGI_APPLICATION = 'CRUD.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'epiz_32074879_admindb',
-        'NAME': '	epiz_32074879',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'EmployeeDatabase',
         'USER': 'postgres',
-        'PASSWORD': 'TR3jb6j7bUc',
-        'HOST': 'sql113.epizy.com'
+        'PASSWORD': 'annamae',
+        'HOST': 'localhost'
     }
 }
 
